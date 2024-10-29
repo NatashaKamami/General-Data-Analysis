@@ -10,13 +10,13 @@ It contains data in the following columns:
 
 - **Order_ID**: Unique identifier for each order.
 - **Date**: Date of the sale.
-- **Status**: Current status of the sale (e.g., Shipped, Cancelled).
-- **Fulfilment**: Method of fulfillment (e.g., Merchant).
-- **Ship_service_level**: Type of shipping service used (e.g., Standard).
+- **Status**: Status of the sale (e.g. Shipped, Cancelled).
+- **Fulfilment**: Method of fulfillment (e.g. Merchant).
+- **Ship_service_level**: Type of shipping service used (e.g. Standard).
 - **Style**: Style of the product.
 - **SKU**: Stock Keeping Unit, unique identifier for each product.
-- **Category**: Product category (e.g., Kurta).
-- **Size**: Size of the product (e.g., S, M, L).
+- **Category**: Product category (e.g. Kurta).
+- **Size**: Size of the product (e.g. S, M, L).
 - **ASIN**: Amazon Standard Identification Number.
 - **Courier_Status**: Status of the courier.
 - **Qty**: Quantity of the product.
@@ -26,7 +26,7 @@ It contains data in the following columns:
 - **Ship_postal_code**: Shipping postal code.
 - **Ship_country**: Shipping country.
 - **Promotion_applied**: Indicates whether a promotion was applied.
-- **Order_type**: Type of order (e.g., B2B Sale or B2C Sale).
+- **Order_type**: Type of order (e.g. B2B Sale or B2C Sale).
 
 
 ## SQL Database Design
@@ -39,6 +39,7 @@ It contains data in the following columns:
 
 
 ## Tableau Visualizations
+Link to my Tableau Story : https://public.tableau.com/app/profile/natasha.kamami/viz/Amazon_Sales_17301907475480/Story1
 
 1. **Line Graph to show Monthly Sales Trends**: Displays sale trends over time.
 
@@ -53,7 +54,7 @@ The line graph shows monthly sales for the year 2022 . We can see that sales wer
 
 ![image](https://github.com/user-attachments/assets/983de458-cabe-4e92-9cb5-0c3b809857d6)
 
-This bar chart highlights the impact of promotions on the sales amount. We can tell that the amount of sales when a promotion is applied is significantly higher than the amount of sales when no promotion is applied. This visualization is important in helping the company evaluate the effectiveness of promotions and this will help improve their marketing startegies in the future which will consequently boost their sales.
+This bar chart highlights the impact of promotions on the sales amount. We can tell that the amount of sales when a promotion is applied is significantly higher than the amount of sales when no promotion is applied. This visualization is important in helping the company evaluate the effectiveness of promotions and this will help improve their marketing strategies in the future which will consequently boost their sales.
 
 3. **Bar Chart to Investigate Effect of Order Type on Sale Amounts**: Analyzes the sales performance of different order types.
  
